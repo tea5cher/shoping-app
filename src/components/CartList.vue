@@ -16,7 +16,7 @@
             </div>
         </ul>
         <div class="empty-cart-wrap" v-else>
-            <!-- <CartLogo /> -->
+    
             <img class="empty-card-img" src="../assets/test.png" alt="empty-cart_img">
             <p class="empty-text">Your Shopping Bag is Empty</p>
             <router-link to="/">
