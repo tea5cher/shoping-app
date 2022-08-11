@@ -37,7 +37,6 @@ export default {
         onChangeQuantity(e){
             let val = e.target.value;
             this.total = +(this.product.regular_price.value * val).toFixed(2);
-            // console.log(val);
             this.changeQuantityProduct({id:this.product.id, val:val});
         },
         onDeleteItem(){
