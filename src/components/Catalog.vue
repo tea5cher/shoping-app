@@ -7,7 +7,7 @@
                 <div class="product__name">{{product.title}}</div>
                 <div class="product__brand">Brand: {{product.brand}}</div>
                 <div class="product__sell-wrap">
-                    <div class="product_price">${{product.regular_price.value}}</div>
+                    <div class="product__price">${{product.regular_price.value}}</div>
                     <button @click='onAddToCart(product)' class="add-to-cart">Add to cart</button>
                 </div>
                 
@@ -18,11 +18,13 @@
 
 <script>
 import { mapActions, mapGetters } from 'vuex'
+
 export default {
     name: 'Catalog',
     data(){
         return {
             products: this.showProductsList,
+            newID: 0,
         }
     },
     computed: {
@@ -82,7 +84,8 @@ export default {
             font-weight: 600;
         }
         &__price {
-            font-size: 15px;
+            font-size: 18px;
+            font-weight: 500;
         }
         &__sell-wrap {
             display: flex;

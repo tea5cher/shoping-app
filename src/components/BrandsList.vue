@@ -63,5 +63,8 @@ export default {
         font-weight: 600px;
         margin-bottom: 10px;
         cursor: pointer;
+        &:hover{
+            font-weight: 700;
+        }
     }
 </style>

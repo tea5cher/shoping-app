@@ -9,7 +9,8 @@
         "value": 27.12
         },
         "image": "./assets/images/1.png",
-        "brand": "Adidas"
+        "brand": "Adidas",
+        "quantity": 1
     },
     {
         "type": "simple",
@@ -21,7 +22,8 @@
         "value": 36.87
         },
         "image": "./assets/images/2.png",
-        "brand": "Nike"
+        "brand": "Nike",
+        "quantity": 1
     },
     {
         "type": "simple",
@@ -33,7 +35,8 @@
         "value": 28.91
         },
         "image": "./assets/images/3.png",
-        "brand": "Reebok"
+        "brand": "Reebok",
+        "quantity": 1
     },
     {
         "type": "simple",
@@ -45,7 +48,8 @@
         "value": 41.23
         },
         "image": "./assets/images/4.png",
-        "brand": "Adidas"
+        "brand": "Adidas",
+        "quantity": 1
     },
     {
         "type": "simple",
@@ -57,7 +61,8 @@
         "value": 88.00
         },
         "image": "./assets/images/5.png",
-        "brand": "Nike"
+        "brand": "Nike",
+        "quantity": 1
     },
     {
         "type": "simple",
@@ -69,7 +74,8 @@
         "value": 127.41
         },
         "image": "./assets/images/6.png",
-        "brand": "New Balance"
+        "brand": "New Balance",
+        "quantity": 1
     },
     {
         "type": "simple",
@@ -81,7 +87,8 @@
         "value": 123.40
         },
         "image": "./assets/images/7.png",
-        "brand": "Puma"
+        "brand": "Puma",
+        "quantity": 1
     },
     {
         "type": "simple",
@@ -93,7 +100,8 @@
         "value": 92.32
         },
         "image": "./assets/images/8.png",
-        "brand": "Adidas"
+        "brand": "Adidas",
+        "quantity": 1
     },
     {
         "type": "simple",
@@ -105,7 +113,8 @@
         "value": 53.40
         },
         "image": "./assets/images/9.png",
-        "brand": "Puma"
+        "brand": "Puma",
+        "quantity": 1
     }
 ]
 

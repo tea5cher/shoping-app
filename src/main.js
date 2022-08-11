@@ -4,6 +4,11 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import store from './store'
 import router from './router'
+import Notifications from '@kyvg/vue3-notification'
+
+
+
+// app.use(Notifications)
 
 
 // import router from './router/index'
@@ -12,4 +17,4 @@ import router from './router'
 
 // console.log(router);
 
-createApp(App).use(router).use(store).mount('#app')
+createApp(App).use(router).use(store).use(Notifications).mount('#app')

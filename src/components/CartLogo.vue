@@ -1,5 +1,5 @@
 <template>
-    <router-link to="/cart">
+    <router-link class="cart-link" to="/cart">
         <div class="cart" ref="cart">
             <img class="cart-icon" src="../assets/bag-cart.svg" alt="bag">
             <span class="cart-value">{{getCartList.length}}</span>
@@ -38,20 +38,23 @@ export default {
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
+    font-weight: 600;
 }
- @keyframes shake-cart {   
-        0%, 50%, 100% {
-            transform: rotate(0deg);
-        }
-        10%, 30% {
-            transform: rotate(-10deg);
-        }
-        20%, 40% {
-            transform: rotate(10deg);
-        }
+@keyframes shake-cart {   
+    0%, 50%, 100% {
+        transform: rotate(0deg);
     }
-    .shaked {
-        animation: shake-cart 1.2s ease;
+    10%, 30% {
+        transform: rotate(-10deg);
     }
-
+    20%, 40% {
+        transform: rotate(10deg);
+    }
+}
+.shaked {
+    animation: shake-cart 1.2s ease;
+}
+.cart-link:active{
+    color: #000;
+}
 </style>
